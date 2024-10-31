@@ -24,7 +24,11 @@ function addItem() {
 
         liElement.style.fontWeight = "bold";
 
+        liElement.style.borderBottom = "2px solid white"
 
+        liElement.style.marginBottom = "10px"
+
+        
         // create delete button in li Element
 
         var dltButton = document.createElement("button");
@@ -42,6 +46,10 @@ function addItem() {
         dltButton.style.color = "white";
 
         dltButton.style.borderRadius = "8px";
+
+        dltButton.style.border = "2px solid black"
+
+        dltButton.style.width = "100px"
 
         dltButton.style.margin = "5px 5px";
 
@@ -67,6 +75,10 @@ function addItem() {
         editButton.style.color = "white";
 
         editButton.style.borderRadius = "8px";
+
+        editButton.style.border = "2px solid black"
+
+        editButton.style.width = "100px"
 
         editButton.style.margin = "5px 5px";
 
